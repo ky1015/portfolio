@@ -1,1 +1,90 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Londrina+Sketch&family=Quicksand:wght@300..700&display=swap');
+
+/* Import own fonts
+
+/* Colors I like:
+light blue: #97decd
+Outer Space: #474747
+Viridian: #438974
+Rosewood: #520202
+Platinum: #E2E2E2
+*/
+
+/* Style Rules for Landing Page */
+
+body, header, nav, main, section, footer, img, figcaption, figure, div, ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  height: 100%;
+}
+
+
+.navbar {
+  display: flex;
+  background-color: #E2E2E2;
+  box-shadow: 0 0 10px 0 black;
+  height: 50px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 15px;
+  text-align: right;
+}
+
+.navbar li {
+  display: inline;
+  margin: 20px;
+  text-align: right;
+}
+
+.navbar li a {
+  color: black;
+  text-decoration: none;
+  text-align: right;
+  font-family: 'Fraunces';
+}
+
+.footer {
+  background-color: #E2E2E2;
+  text-align: center;
+  padding: 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  font-family: 'Fraunces';
+  color: #ccc;
+}
+
+.footer * {
+  display: inline;
+}
+
+.footer li {
+  margin: 20px;
+}
+
+.footer a {
+  color: #474747;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+@media print
+{
+  .noprint { display: none; }
+  .print { display: block; }
+}
+
+

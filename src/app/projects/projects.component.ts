@@ -21,7 +21,7 @@ import { Component } from '@angular/core';
       <hr>
       <h4> RPG Character Creator </h4>
       <p> Made with HTML5, CSS, and JavaScript using Angular. I learned how to work in Angular for the first time and do a single-page application. </p>
-      <a href=""></a>
+      <a href="https://ky1015.github.io/web-425/rpg-character-builder/" target="_blank">Link</a>
       </div>
     </div>
   `,

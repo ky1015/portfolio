@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
    <div class="me-container">
    <div class="me">
    <h2>About Me </h2>
-   <img src="/assets/me.jpg" alt="A picture of Kylie" class="about-me-pic">
+   <img src="./assets/me.jpg" alt="A picture of Kylie" class="about-me-pic">
    </div>
    <div class="me-paragraph">
    <p>I was born and raised in Utah. I studied biology and got a bachelors degree from Utah Valley University in 2021.
@@ -19,11 +19,11 @@ import { Component } from '@angular/core';
    </div>
    <h3> Some of my favorite things </h3>
    <div class="favorites-grid">
-   <img src="/assets/loki.jpg" alt="a black and white cocker spaniel resting his head in a hand" class="grid-image">
-   <img src="/assets/bigbuddy.jpg" alt="a buff cocker spaniel sitting on a couch" class="grid-image item2">
-   <img src="/assets/blossoms.jpg" alt="plum blossoms" class="grid-image item3">
-   <img src="/assets/oreo.jpg" alt="a stack of oreos" class="grid-image item4">
-   <img src="/assets/clouds.jpg" alt="stormy clouds" class="grid-image item5">
+   <img src="./assets/loki.jpg" alt="a black and white cocker spaniel resting his head in a hand" class="grid-image">
+   <img src="./assets/bigbuddy.jpg" alt="a buff cocker spaniel sitting on a couch" class="grid-image item2">
+   <img src="./assets/blossoms.jpg" alt="plum blossoms" class="grid-image item3">
+   <img src="./assets/oreo.jpg" alt="a stack of oreos" class="grid-image item4">
+   <img src="./assets/clouds.jpg" alt="stormy clouds" class="grid-image item5">
 
    </div>
   `,

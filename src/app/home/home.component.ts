@@ -95,6 +95,6 @@ export class HomeComponent {
     ];
   }
   changeBackground() {
-    this.backgroundImage ='/assets/northern-lights.jpg'
+    this.backgroundImage ='./assets/northern-lights.jpg'
   }
   }

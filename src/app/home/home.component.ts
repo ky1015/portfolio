@@ -16,8 +16,7 @@ import { CommonModule } from '@angular/common';
       <h2>Hello!</h2>
       <h4>Welcome to my website</h4>
       <p>
-        I am currently studying Web Development at Bellevue University. I hope
-        to graduate in December 2024. I like to spend time with my family and dogs. I love getting to try new foods and to explore fun places!
+        I graduated with a degree in Web Development in December 2024. I have been working on learning new things and improving my skills! I like to spend time with my family and dogs. I love getting to try new foods and to explore fun places!
       </p>
     </div>
     <div [ngStyle]="{'background-image': 'url(' + backgroundImage + ')', 'background-size': 'cover', 'height': '100vh'}" class="bucket-list">
